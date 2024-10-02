@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ниже фонты на шрифт -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+<!-- подключаем стиль стандартный reset -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+
+    <div class="img__hs1">
+        <header class="header">
+          <div class="container">
+            <div class="header__inner">
+              <a class="logo" href="index.html">
+                <img src="images/logo.svg" alt="logo">
+              </a>
+              
+              <nav class="menu">
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a href="index2.html" class="menu__link">Home</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="index3.html" class="menu__link">About Us</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="index4.html" class="menu__link">Accommodations</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="index5.html" class="menu__link">Activities</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="index6.html" class="menu__link">Gallery</a>
+                  </li>
+                </ul>
+              </nav>
+        
+                    <button class="header__btn" id="callbackBtn">
+                        CALL ME BACK
+                    </button>
+                    <!-- Модальное окно для обратного звонка -->
+        <div id="callbackModal" class="modal" style="display: none;">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Enter your phone number, and we will call you back</p>
+            <input type="text" id="phoneNumber" style="border: 1px solid #14F800;
+            border-radius: 5px; padding-left: 10px;" placeholder="Your phone number">
+            <button id="submitPhone" class="btn__send" style="background-color: #14F800;
+            border-radius: 5px; border: none; width: 60px;
+            height: 30px; 
+            font-weight: 300;
+            font-size: 20px;
+            text-align: center;
+            color: #fbfbe0;">Send</button>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+        </header>
+  
+<main>
+    <div class="container">
+        <div style="max-width: 500px; margin: auto;">
+          
+          <form action="" method="post" name="register" style="display: flex; flex-direction: column; align-items: center; margin-top: 107px;">
+            <!-- <input type="text" name="username" style="font-family: 'Roboto Serif', sans-serif; font-weight: 400; font-size: 14px;  width: 300px; height: 40px; margin-bottom: 16px; padding-left: 12px; box-sizing: border-box; border: 1px solid #EAEAEA; border-radius: 5px;" placeholder="Username">
+            <input type="email" name="email" style="font-family: 'Roboto Serif', sans-serif; font-weight: 400; font-size: 14px; width: 300px; height: 40px; margin-bottom: 16px; padding-left: 12px; box-sizing: border-box; border: 1px solid #EAEAEA; border-radius: 5px;" placeholder="Enter your email address">
+            <input type="password" name="password" style="font-family: 'Roboto Serif', sans-serif; font-weight: 400; font-size: 14px; width: 300px; height: 40px; margin-bottom: 16px; padding-left: 12px; box-sizing: border-box; border: 1px solid #EAEAEA; border-radius: 5px;" placeholder="Password">
+            <input type="password" name="confirm_password" style="font-family: 'Roboto Serif', sans-serif; font-weight: 400; font-size: 14px; width: 300px; height: 40px;  margin-bottom: 41px; padding-left: 12px; box-sizing: border-box; border: 1px solid #EAEAEA; border-radius: 5px;" placeholder="Confirm Password"> -->
+            <label for="checkin" style="margin-bottom: 20px; font-family: 'Roboto Serif', sans-serif;font-weight: 400;font-size: 20px; color: #000;">Check-in date</label>
+            <input type="date" name="date" style="font-family: 'Roboto Serif', sans-serif; font-weight: 400; font-size: 14px; width: 250px; height: 40px;  margin-bottom: 41px; padding-left: 12px; box-sizing: border-box; border: 1px solid #EAEAEA; border-radius: 5px;" placeholder="date">
+            <label for="checkin" style="margin-bottom: 20px; font-family: 'Roboto Serif', sans-serif;font-weight: 400;font-size: 20px; color: #000;">Check-out date</label>
+            <input type="date" name="date" style="font-family: 'Roboto Serif', sans-serif; font-weight: 400; font-size: 14px; width: 250px; height: 40px;  margin-bottom: 41px; padding-left: 12px; box-sizing: border-box; border: 1px solid #EAEAEA; border-radius: 5px;" placeholder="date"> 
+          </form>
+        
+          <div style="display: flex; justify-content: center;">
+            <button type="submit" style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; border-radius: 5px; border: none; background-color: #14F800; width: 300px; height: 45px; margin-bottom: 36px; cursor: pointer; margin-top: 60px; ">
+              <a href="index8.html" style="color: #FFFFFF;">Show Available Houses</a>
+           </button>
+           <!-- сейчас тут ссілка, но потом написать джава скрипт и убрать ссілку на страницу -->
+          </div>
+    </div>
+</main>
+
+<footer style="background-color: #b1b6a1;">
+    <div class="container">
+      <div class="footer__nav">
+       <div class="nav1">
+          <a class="logo" href="index.html">
+            <img src="images/logo2.svg" alt="logo">
+          </a>
+      </div>
+
+      <div class="nav1">
+        <p class="nav__name">
+          Contact Information
+        </p>
+        <a class="menu__link2" href="mailto:сarpathians@ukr.net">
+          сarpathians@ukr.net
+        </a>
+        <a class="menu__link2" href="tel:380001234567">
+          +3 (800) 012 345 67
+        </a>
+      </div>
+
+      
+      <div class="nav1">
+        <p class="nav__name">
+          Company
+        </p>
+        <li class="menu__item2">
+          <a href="index3.html" class="menu__link2">About Us</a>
+        </li>
+        <li class="menu__item2">
+          <a href="#" class="menu__link2">Privacy Policy</a>
+        </li>
+      </div>
+
+      <div class="nav1">
+        <p class="nav__name">
+          Support
+        </p>
+        <li class="menu__item2">
+          <a href="#" class="menu__link2">FAQ</a>
+        </li>
+        <li class="menu__item2">
+          <a href="#" class="menu__link2">Contact Support</a>
+        </li>
+      </div>
+
+      <div class="nav1">
+        <p class="nav__name">
+          Follow Us
+        </p>
+        <li class="menu__item2">
+          <a href="#" class="menu__link2">Facebook</a>
+        </li>
+        <li class="menu__item2">
+          <a href="#" class="menu__link2">LinkedIn</a>
+        </li>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

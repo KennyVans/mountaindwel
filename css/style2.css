@@ -1,0 +1,111 @@
+html{
+box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: #00ff62;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: "Roboto Serif", serif;
+    font-size: 16px;
+    font-weight: 400, 500, 600, 800; 
+    font-style: normal;
+    background: #D1D1BB;
+    margin: 0;
+    color: #000000;
+}
+.img__hs1{
+  /* чтобы в хедер и впервую секцию поместить бекграунд картинку, взяла в хтмл хедер и 1секцию в один див imghs1 */
+  background-image: url(../images/bg1.png);
+  background-repeat: no-repeat; /* Отключает повторение изображения */
+  background-size: cover; /* Масштабирует изображение по размеру экрана */
+  background-position: center; /* Центрирует изображение */
+}
+.container{
+  width: 1280px;
+  margin: 0 auto;  
+}
+.top__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h__btn{
+    margin-top: 50px;
+}
+.sec__welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 107px 0;
+}
+.prg_name{
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 150%;
+    color: #000;
+    padding-bottom: 59px;
+}
+.prg__text{
+    padding-bottom: 50px;
+    font-family: "Roboto Serif", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    color: #000;
+}
+/* page HOME ВЫШЕ СТИЛИ  */
+
+
+
+
+
+
+/* ниже стили на страницу ABOUT US */
+.sec_prg{
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 150%;
+    color: #000;
+    margin-bottom: 107px;
+}
+.name__h3{
+    font-family: "Roboto Serif", serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 150%;
+    color: #000;
+}
+.name__p{
+    font-family: "Roboto Serif", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    color: #000;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+.au__img{
+    border: 1px solid #14F800;
+}
+
+
+
+
+
+/* НИЖЕ  СТИЛИ ДЛЯ page Accommodations */
